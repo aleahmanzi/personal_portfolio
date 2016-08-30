@@ -1,0 +1,5 @@
+.hero_wrap { outline: 0px solid blue; width: 100%; float: right; background-color: #57b2a3; color: white; height: 75px;  } 
+.name_wrap { outline: 0px solid red; display: inline-block; }
+.name_wrap p { font-size: 40px; font-family: "Lobster"; position: relative; bottom: 25px; left: 25px; }
+.search_wrap { display: inline-block; position: relative; float: right; top: 25px; right: 25px; }
+input { border-radius: 7px; font-size: 20px; border: 0; background: white url(../my_fitness_lab/pics/mag_glass.png) no-repeat scroll; background-size: 17px; background-position: right 15px center; text-align: left; }
