@@ -26,17 +26,31 @@ demo.controller('homectrl', function($scope, $http){
 
   /// - default values
 
-$scope.search = function(term) {
+ $scope.search = function(term) {
   console.log("working!")
   $http ({ url: 'http://api.yummly.com/v1/api/recipes?appID&appKey&' + term, method: 'JSONP', params: {callback: 'JSON_CALLBACK'} })
    .success(function(result){
    	 console.log(result);
    	 $scope.recipeList = result;
    });	
-}    
- /// - recipe search function
+ }    
+  /// - recipe search function
 
    
-});/// - homectrl
+});
+
+/// - homectrl
+
+
+demo.controller('recipesctrl', function($scope){
+});
+
+/// - recipesctrl
+
+demo.controller('searchctrl', function($scope){
+});
+
+/// - searchctrl
+
 
 
