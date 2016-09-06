@@ -1,11 +1,11 @@
 angular.module('myApp').controller('searchctrl', function($scope, search){
 });
 
-  var recipeList = [];
+  $scope.recipeList = [];
 
   /// - default values
 
-  seach(term).success(function(result){
+  seach().success(function(result){
   	 console.log(result);
    	 $scope.recipeList = result;
    });

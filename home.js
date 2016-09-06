@@ -1,4 +1,4 @@
-angular.module('myApp').controller('homectrl', function($scope, $http, search){
+angular.module('myApp').controller('homectrl', function($scope, $http){
   
 
    

@@ -1,4 +1,4 @@
-angular.module('myApp').controller('recipesctrl', function($scope, search){
+angular.module('myApp').controller('recipesctrl', function($scope){
 });
 
 /// - recipesctrl
