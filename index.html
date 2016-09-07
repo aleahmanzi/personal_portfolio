@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp" ng-controller="homectrl">
+<html lang="en" ng-app="myApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Cook App</title>
@@ -19,12 +19,13 @@
   <link href='http://fonts.googleapis.com/css?family=Lobster|Hind:600,400' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body ng-controller="searchctrl">
 
 {{ test }}
 
 <input type="text" name="term" ng-model="term"/>
-<input type="submit" class="submit" value="Search" ng-click="search(term)"/>
+<input type="submit" class="submit" value="Search" ng-click="search()"/>
+<p ng-repeat="match in matches">{{ match.recipeName }}</p>
 
 <header class="hero_wrap">
  <div class="hero_data">
