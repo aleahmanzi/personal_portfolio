@@ -16,16 +16,12 @@
   <script type="text/javascript" src="recipes.js"></script>
 
   <link href="main.css" rel="stylesheet">
+  <link src="search.html">
+
   <link href='http://fonts.googleapis.com/css?family=Lobster|Hind:600,400' rel='stylesheet' type='text/css'>
 </head>
 
 <body ng-controller="searchctrl">
-
-{{ test }}
-
-<input type="text" name="term" ng-model="term"/>
-<input type="submit" class="submit" value="Search" ng-click="search()"/>
-<p ng-repeat="match in matches">{{ match.recipeName }}</p>
 
 <header class="hero_wrap">
  <div class="hero_data">
@@ -47,14 +43,50 @@
 
  <div class="nav_items">
   <div class="nav_list">
-    <a href="#/" class="list_item">Home</a>
-    <a href="#/myrecipes" class="list_item">Recipe Box</a>
-    <a href="#/search" class="list_item">Search</a> 
+    <a href="#/" class="list_item">Home</a></br>
+    <a href="#/myrecipes" class="list_item">Recipe Box</a></br>
+    <a href="#/search" class="list_item">Search</a></br>
   </div><!-- . nav_list - -->
  </div><!-- . nav_items - --> 
 
  </div><!-- . nav_data - -->
 </section><!-- . nav_wrap - -->
+
+<section class="search_wrap">
+
+ <div class="meal_wrap">
+  <div class="meal_data">
+    <input class="meal_type" type="checkbox" value="breakfast" ng-model="meal.option1"/>
+    <input class="meal_type" type="checkbox" value="brunch" ng-model="meal.option2"/>
+    <input class="meal_type" type="checkbox" value="lunch" ng-model="meal.option3"/>
+    <input class="meal_type" type="checkbox" vaule="dinner" ng-model="meal.option4"/>
+    <input class="meal_type" type="checkbox" value="sides" ng-model="meal.option5"/>
+  </div><!-- . meal_data - -->  
+ </div><!-- . meal_wrap - -->
+
+ <div class="title_wrap">
+  <p class="title" ID="title1">What's in Your Fridge?</p>
+  <p class="title" ID="title2">Foods I don't cook with</p>
+ </div><!-- . title_wrap - -->
+
+ <div class="food_wrap">
+  <input class="yes_food" type="text" ng-model="term.ingredient1"/>
+  <input class="no_food" type="text" ng-model="block.exclude1"/></br>
+  <input class="yes_food"type="text" ng-model="term.ingredient2"/>
+  <input class="no_food" type="text" ng-model="block.exclude2"/></br>
+  <input class="yes_food" type="text" ng-model="term.ingredient3"/>
+  <input class="no_food" type="text" ng-model="block.exclude3"/></br>
+  <input class="yes_food" type="text" ng-model="term.ingredient4"/>
+  <input class="no_food" type="text" ng-model="block.exclude4"/></br>
+  <input class="yes_food" type="text" ng-model="term.ingredient5"/>
+  <input class="no_food" type="text" ng-model="block.exclude5"/></br>
+  <input class="submit" type="submit" ng-click="search()" value="Submit" />
+ </div><!-- . food_wrap - -->
+</section><!-- . search_wrap - --> 
+
+<section class="result_wrap">
+ <p ng-repeat="match in matches">{{ match.recipeName }}</p>  
+</section><!-- . result_wrap - -->
 
 </body>
 </html>
