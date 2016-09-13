@@ -25,7 +25,11 @@
 
 <header class="hero_wrap">
  <div class="hero_data">
-  <div class="mini_nav"></div>
+  <div class="mini_nav">
+    <a href="#/" class="mini_list">Home</a>
+    <a href="#/myrecipes" class="mini_list">Recipe Box</a>
+    <a href="#/search" class="mini_list">Search</a>
+  </div>
   <div class="name_wrap">
    <p>What's Cookin'</p>
   </div><!-- . name_wrap - -->
@@ -56,11 +60,11 @@
 
  <div class="meal_wrap">
   <div class="meal_data">
-    <input class="meal_type" type="checkbox" value="breakfast" ng-model="meal.option1"/>
-    <input class="meal_type" type="checkbox" value="brunch" ng-model="meal.option2"/>
-    <input class="meal_type" type="checkbox" value="lunch" ng-model="meal.option3"/>
-    <input class="meal_type" type="checkbox" vaule="dinner" ng-model="meal.option4"/>
-    <input class="meal_type" type="checkbox" value="sides" ng-model="meal.option5"/>
+    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option1"/>Breakfast</label>
+    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option2"/>Brunch</label>
+    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option3"/>Lunch</label>
+    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option4"/>Dinner</label>
+    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option5"/>Sides</label>
   </div><!-- . meal_data - -->  
  </div><!-- . meal_wrap - -->
 

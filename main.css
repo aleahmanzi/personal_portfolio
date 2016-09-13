@@ -1,26 +1,29 @@
-.hero_wrap { outline: 1px solid black; width: 100%; float: right; color: #F94D2F; height: 75px; display: inline-block; } 
+.hero_wrap { outline: 0px solid black; width: 100%; float: right; color: #F94D2F; height: 75px; display: inline-block; } 
 .name_wrap { outline: 0px solid red; display: inline-block; float: right; margin-right: 50px;  }
-.name_wrap p { font-size: 40px; font-family: "Lobster"; position: relative; bottom: 25px; left: 25px; }
+.name_wrap p { font-size: 40px; font-family: "Lobster"; position: relative; bottom: 75px; left: 25px; }
 .fork_icon img { display: none; }
+.mini_nav { outline: 0px solid black; margin-top: 50px; }
+.mini_list { outline: 0px solid blue; margin-right: 10px; }
 .nav_items { display: none; }
 
-.meal_wrap { outline: 1px solid red; width: 500px; margin: 0 auto; }
-.meal_data { margin-left: 150px; }
-.meal_type {  display: inline-block; margin-right: 25px; }
+.meal_wrap { outline: 0px solid red; width: 500px; margin: 0 auto; }
+.meal_data { margin-left: 50px; }
+.meal_type {  display: inline-block; margin-right: 5px; }
+.label { margin-right: 15px; }
 
 .search_wrap { outline: 0px solid blue; width: 100%; height: 250px; }
-.title_wrap { outline: 1px solid green; width: 500px; margin: 0 auto; }
+.title_wrap { outline: 0px solid green; width: 500px; margin: 0 auto; }
 .title { display: inline-block; margin-bottom: 5px; }
 #title1 { margin-left: 30px; }
 #title2 { margin-left: 90px; }
-.food_wrap { outline: 1px solid red; width: 500px; margin: 0 auto; }
+.food_wrap { outline: 0px solid red; width: 500px; margin: 0 auto; }
 .yes_food { margin-right: 30px; margin-left: 25px; width: 200px; }
 .no_food { width: 200px; }
 .submit { float: right; margin-top: 15px; }
 
 .result_wrap { width: 100%; }
 
-@media only screen and (min-width: 900px) { 
+/*@media only screen and (min-width: 900px) { 
 .mini_nav { display: none; }
 .hero_wrap { width: 70%; }
 .fork_icon img { outline: 0px solid black; display: block; height: 60px; margin-top: 10px; float:right; margin-right: 100px; margin-top: 50px; }
@@ -30,6 +33,6 @@
 .nav_list { outline: 0px solid black; width: 100%; }
 .list_wrap { outline: 0px solid red; text-align: right; font-family: "Hind"; font-size: 30px; cursor: pointer; }
 .list_wrap:hover {background-color: #444; }
-.list_item { outline: 0px solid blue; width: 75%; margin: 0 auto; }
+.list_item { outline: 0px solid blue; width: 75%; margin: 0 auto; }*/
 
 /* -- media screen changes - -- */
