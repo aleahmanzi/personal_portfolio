@@ -18,7 +18,7 @@
 #title2 { margin-left: 90px; }
 
 .food_wrap { outline: 0px solid red; width: 500px; margin: 0 auto; display: inline-block; }
-.yes_wrap { display: inline-block; margin-left: 100px; }
+.yes_wrap { display: inline-block; margin-left: 10px; }
 .no_wrap { display: inline-block; }
 
 .submit { margin-top: 15px; }
