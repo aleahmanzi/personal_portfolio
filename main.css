@@ -17,14 +17,14 @@
 #title1 { margin-left: 30px; }
 #title2 { margin-left: 90px; }
 
-.food_wrap { outline: 0px solid red; width: 500px; margin: 0 auto; display: inline-block; }
-.yes_wrap { display: inline-block; margin-left: 10px; }
+.food_wrap { outline: 0px solid red; width: 500px; display: inline-block; margin-left: 200px; }
+.yes_wrap { display: inline-block; }
 .no_wrap { display: inline-block; }
 
 .submit { margin-top: 15px; }
 
 .result_wrap { width: 100%; }
-.food_img { outline: 1px solid red; height: 25px; }
+.food_img { outline: 1px solid red; height: 150px; }
 
 /*@media only screen and (min-width: 900px) { 
 .mini_nav { display: none; }

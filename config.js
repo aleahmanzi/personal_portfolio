@@ -14,6 +14,10 @@ angular.module('myApp')
         templateUrl: './search.html',
         controller: 'searchctrl'
     })
+    .when('/:recipeId', {
+        templateUrl: './recipeDetails.html',
+        controller: 'detailsctrl'
+    })
     .when('/error', {
         template: '<p>page not found</p>'
     });

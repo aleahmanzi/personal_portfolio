@@ -1,11 +1,14 @@
 angular.module('myApp').controller('searchctrl', 
-	function($scope, search){
+	function($scope, search, $routeParams){
 
   $scope.recipeList = [];
   $scope.matches = [];
+  $scope.recipeId = [];
   $scope.term = [{}]
   $scope.block = [{}]
-  $scope.meal = [{}]
+  $scope.recipeId = ""
+
+  /*$scope.meal =  - to be added, veggie, vegan etc...*/
 
   /// - default values
   
@@ -16,13 +19,20 @@ angular.module('myApp').controller('searchctrl',
       $scope.matches = result.matches;
      })
   };
+/// - return matches for recipe search
 
   $scope.photoUrl = function(match){
-    var url = $scope.matches.imageUrlBySize.90
-    console.log(url)
+    var url = match.imageUrlsBySize[90]
     return url
   }
-/// - return matches for recipe search
+/// - format results in an image
+
+
+  $scope.getRecipe = function(){
+    $scope.recipeId = $routeParams.id;
+    console.log($scope.recipeId);
+  }
+/// - get recipe from second API call
 
 $scope.addIngredient = function(){
   $scope.term.push({});

@@ -29,7 +29,7 @@
 	</section><!-- . search_wrap - --> 
 
 	<section class="result_wrap">
-	 <img class="food_img" ng-repeat="match in matches" ng-src="{{ photoUrl() }}"/>
+	 <a href="#/{{ match.id }}">{{ match.id }}<img class="food_img" ng-repeat="match in matches" ng-src="{{ photoUrl(match) }}"  ng-click="getRecipe()"/></a>
 	</section><!-- . result_wrap - -->
 
-</div> - <!-- . searchctrl - -->
+</div><!-- . searchctrl - -->
