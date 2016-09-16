@@ -27,12 +27,10 @@ angular.module('myApp').controller('searchctrl',
   }
 /// - format results in an image
 
-
   $scope.getRecipe = function(){
-    $scope.recipeId = $routeParams.id;
-    console.log($scope.recipeId);
+    $scope.recipeId = $routeParams.recipeId;
   }
-/// - get recipe from second API call
+/// - $routeParams for dynamic recpipe page url
 
 $scope.addIngredient = function(){
   $scope.term.push({});
