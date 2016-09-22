@@ -1,4 +1,4 @@
-<div ng-controller="searchctrl">
+<div>
   <section class="search_wrap">
    <div class="outline">
      <div class="food_wrap">
@@ -20,7 +20,9 @@
   </section><!-- .search_wrap - -->
 
   <section class="result_wrap">
-   <a ng-repeat="match in matches" href="#/search/{{ match.id }}"><img class="food_img" ng-src="{{ photoUrl(match) }}"/></a>
+    <a ng-repeat="match in matches" href="#/search/{{ match.id }}" class="result_data">
+      <img class="food_img" ng-src="{{ photoUrl(match) }}"/>
+    </a><!-- . result_data - -->
   </section><!-- . result_wrap - -->
 
 </div><!-- . searchctrl - -->

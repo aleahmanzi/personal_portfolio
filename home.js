@@ -1,4 +1,4 @@
-angular.module('myApp','ui.bootstrap').controller('homectrl', function($scope, $http){
+angular.module('myApp').controller('homectrl', function($scope, $http){
   
 
    
