@@ -1,0 +1,8 @@
+<div>
+ <section class="recipe_list">
+  <a>{{ data.name }}</a><br/>
+  <a>Cook Time: {{ data.totalTime }}</a>
+  <a>{{ data.yield }}</a><br/>  
+  <a ng-repeat="ingredient in ingredientLines">{{ ingredientLines }}</a><br/>
+ </section><!-- . recipe_list - -->
+</div>

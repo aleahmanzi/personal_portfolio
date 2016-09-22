@@ -27,11 +27,6 @@ angular.module('myApp').controller('searchctrl',
   }
 /// - format results in an image
 
-  $scope.getRecipe = function(){
-    $scope.recipeId = $routeParams.recipeId;
-  }
-/// - $routeParams for dynamic recpipe page url
-
 $scope.addIngredient = function(){
   $scope.term.push({});
 }

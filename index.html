@@ -14,6 +14,13 @@
   <script type="text/javascript" src="home.js"></script>
   <script type="text/javascript" src="search.js"></script>
   <script type="text/javascript" src="recipes.js"></script>
+  <script type="text/javascript" src="recipe.factory.js"></script>
+  <script type="text/javascript" src="recipeDetails.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 
   <link href="main.css" rel="stylesheet">
 
@@ -22,38 +29,38 @@
 
 <body ng-controller="homectrl">
 
-<header class="hero_wrap">
- <div class="hero_data">
-  <div class="mini_nav">
-    <a href="#/" class="mini_list">Home</a>
-    <a href="#/myrecipes" class="mini_list">Recipe Box</a>
-    <a href="#/search" class="mini_list">Search</a>
-  </div>
-  <div class="name_wrap">
-   <p>What's Cookin'</p>
-  </div><!-- . name_wrap - -->
- </div><!-- . hero_data - -->
-</header><!-- . hero_wrap- -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="navbar-brand" href="#" src="cook_icon.svg"/>
+    </div>
 
-<section class="nav_wrap">
- <div class="nav_data">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#/search">Search</a></li>
+        <li><a href="#/myrecipes">Recipe Box</a></li>
 
- <div class="user_wrap">
-  <div class="fork_icon">
-   <img class="image" src="cook_icon.svg">
-  </div><!-- .fork_icon - -->
- </div><!-- . user_wrap - -->
-
- <div class="nav_items">
-  <div class="nav_list">
-    <a href="#/" class="list_item">Home</a></br>
-    <a href="#/myrecipes" class="list_item">Recipe Box</a></br>
-    <a href="#/search" class="list_item">Search</a></br>
-  </div><!-- . nav_list - -->
- </div><!-- . nav_items - --> 
-
- </div><!-- . nav_data - -->
-</section><!-- . nav_wrap - -->
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div ng-view></div>
 

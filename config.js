@@ -14,7 +14,7 @@ angular.module('myApp')
         templateUrl: './search.html',
         controller: 'searchctrl'
     })
-    .when('/:recipeId', {
+    .when('/search/:recipeId', {
         templateUrl: './recipeDetails.html',
         controller: 'detailsctrl'
     })
