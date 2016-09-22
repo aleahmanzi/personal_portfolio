@@ -1,35 +1,26 @@
 <div ng-controller="searchctrl">
+  <section class="search_wrap">
+   <div class="outline">
+     <div class="food_wrap">
+      <div class="yes_wrap">
+       <p class="title" ID="title1">I'm so hungry for:</p>
+       <input class="yes_food" type="text" ng-model="term[$index].name" ng-repeat="item in term"/>
+       <button ng-click="addIngredient()">+</button>
+      </div><!-- . yes_wrap - -->
 
-	<section class="search_wrap">
+      <div class="no_wrap">
+       <p class="title" ID="title2">Not tonight:</p>
+       <input class="no_food" type="text" ng-model="block[$index].name" ng-repeat="item in block"/>
+       <button ng-click="addBlock()">+</button>
+      </div><!-- . no_wrap - -->
 
-	 <div class="meal_wrap">
-	  <div class="meal_data">
-	    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option1"/>Vegetarian</label>
-	    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option2"/>Pescetarian</label>
-	    <label class="label"><input class="meal_type" type="checkbox" ng-model="meal.option3"/>Vegan</label>
-	  </div><!-- . meal_data - -->  
-	 </div><!-- . meal_wrap - -->
+      <input class="submit" type="submit" ng-click="search()" value="Submit" />
+     </div><!-- . food_wrap - -->
+   </div><!-- . outline - -->
+  </section><!-- .search_wrap - -->
 
-	 <div class="title_wrap">
-	  <p class="title" ID="title1">What's in Your Fridge?</p>
-	  <p class="title" ID="title2">Foods I won't cook with!</p>
-	 </div><!-- . title_wrap - -->
-
-	 <div class="food_wrap">
-	  <div class="yes_wrap">
-	   <input class="yes_food" type="text" ng-model="term[$index].name" ng-repeat="item in term"/>
-	   <button ng-click="addIngredient()">+</button>
-	  </div><!-- . yes_wrap - -->
-	  <div class="no_wrap">
-	   <input class="no_food" type="text" ng-model="block[$index].name" ng-repeat="item in block"/>
-	   <button ng-click="addBlock()">+</button>
-	  </div><!-- . no_wrap - -->
-	  <input class="submit" type="submit" ng-click="search()" value="Submit" />
-	 </div><!-- . food_wrap - -->
-	</section><!-- . search_wrap - --> 
-
-	<section class="result_wrap">
-	 <a ng-repeat="match in matches" href="#/search/{{ match.id }}"><img class="food_img" ng-src="{{ photoUrl(match) }}"/></a>
-	</section><!-- . result_wrap - -->
+  <section class="result_wrap">
+   <a ng-repeat="match in matches" href="#/search/{{ match.id }}"><img class="food_img" ng-src="{{ photoUrl(match) }}"/></a>
+  </section><!-- . result_wrap - -->
 
 </div><!-- . searchctrl - -->
