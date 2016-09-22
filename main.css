@@ -1,3 +1,11 @@
+.hello_wrap { outline: 0px solid red; margin-top: 150px; }
+.welcome_section { outline: 0px solid black; width: 400px; margin: 0 auto; text-align: center; }
+.welcome { font-family: Lobster; font-size: 50px; color: #F94D2F;}
+.message { font-family: Lobster; font-size: 25px;}
+.circle { outline: 0px solid black; margin: 0 auto; margin-top: 25px; background: #D5D5D5; width: 100px; height: 100px; border-radius: 50%; }
+.circle:hover { cursor: pointer; }
+.circle_text { outline: 0px solid red; padding-top: 32px; color: white;}
+
 .meal_wrap { outline: 0px solid red; width: 500px; margin: 0 auto; }
 .meal_data { margin-left: 100px; }
 .meal_type {  display: inline-block; }
