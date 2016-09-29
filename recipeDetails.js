@@ -6,9 +6,14 @@ $scope.ingredientLines = '';
 
 detail($scope.recipeId).success(function(data){
   console.log(data);
-  $scope.ingredientLines = data.ingredientLines;
+  $scope.data = data;
 })
 
+$scope.recipeImg = function(data){
+	var url = data.images
+	return url
+}
+/// - format results in an image
 
 });
 /// - detailsctrl

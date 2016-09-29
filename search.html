@@ -1,7 +1,9 @@
 <div>
-  <section class="search_wrap">
+
+  <section class="search_wrap" ng-style="style">
    <div class="outline">
      <div class="food_wrap">
+      
       <div class="yes_wrap">
        <p class="title" ID="title1">I'm so hungry for:</p>
        <input class="yes_food" type="text" ng-model="term[$index].name" ng-repeat="item in term"/>
@@ -15,6 +17,7 @@
       </div><!-- . no_wrap - -->
 
       <input class="submit" type="submit" ng-click="search()" value="Submit" />
+     
      </div><!-- . food_wrap - -->
    </div><!-- . outline - -->
   </section><!-- .search_wrap - -->

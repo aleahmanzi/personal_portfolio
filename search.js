@@ -29,13 +29,14 @@ angular.module('myApp').controller('searchctrl',
 
 $scope.addIngredient = function(){
   $scope.term.push({});
+  $scope.hgt = { height: (25) + 'px' };
+
 }
 
 $scope.addBlock = function(){
   $scope.block.push({});
 }
 /// - + button for adding additional included/excluded ingredients
-
 
 
 });

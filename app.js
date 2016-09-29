@@ -1,2 +1,2 @@
-angular.module('myApp','ui.bootstrap',['ngRoute', 'ui.bootstrap'])
+angular.module('myApp',['ngRoute', 'ui.bootstrap'])
 
