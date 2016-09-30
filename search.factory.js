@@ -3,7 +3,7 @@ angular.module('myApp')
 .factory('search', function ($http){
 	return function(term, block){
 		return $http ({
-			url: 'http://api.yummly.com/v1/api/recipes',
+			url: 'https://api.yummly.com/v1/api/recipes',
 			method: 'JSONP',
 			params: {callback: 'JSON_CALLBACK', 
 			_app_id : '9fb53b76', 
