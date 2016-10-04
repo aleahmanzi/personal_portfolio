@@ -5,13 +5,13 @@
      <div class="food_wrap">
       
       <div class="yes_wrap">
-       <p class="title" ID="title1">I'm so hungry for:</p>
+       <p class="title" ID="title1">Ingredients I'm hungry for:</p>
        <input class="yes_food" type="text" ng-model="term[$index].name" ng-repeat="item in term"/>
        <button ng-click="addIngredient()">+</button>
       </div><!-- . yes_wrap - -->
 
       <div class="no_wrap">
-       <p class="title" ID="title2">Not tonight:</p>
+       <p class="title" ID="title2">Keep these out:</p>
        <input class="no_food" type="text" ng-model="block[$index].name" ng-repeat="item in block"/>
        <button ng-click="addBlock()">+</button>
       </div><!-- . no_wrap - -->
@@ -25,6 +25,7 @@
   <section class="result_wrap">
     <a ng-repeat="match in matches" href="#/search/{{ match.id }}" class="result_data">
       <img class="food_img" ng-src="{{ photoUrl(match) }}"/>
+      <div class="recipe_name"><p class="name">{{ match.recipeName }}</p></div>
     </a><!-- . result_data - -->
   </section><!-- . result_wrap - -->
 
