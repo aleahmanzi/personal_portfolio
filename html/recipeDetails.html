@@ -1,0 +1,51 @@
+<div class="recipe_wrap">
+
+ <section class="recipe_list">
+ 
+
+
+  <div class="recipe_data">
+	  <div class="name_wrap">
+	   <p>{{ data.name }}</p><br/>
+	  </div><!-- . name_wrap - -->
+
+	  <div class="time_wrap">
+	   <p class="time">
+	    <b class="larger">Prep Time:</b>
+	    <br/>{{ data.prepTime }}
+	   </p>
+	   <p class="time" ID="total_time">
+	    <b class="larger">Total Time:</b>
+	    <br/>{{ data.cookTime }}
+	   </p>
+	  </div><!-- .time_wrap - -->
+
+	  <div class="ingredient_list">
+	   <p class="ingredient_title">Ingredients</p>
+	   <p ng-repeat="ingredient in data.ingredientLines">{{ ingredient }}</p><br/>
+	  </div><!-- . ingredient_list - -->
+
+  </div><!-- . recipe_data - -->
+
+  <div class="photo_wrap">
+   <div class="photo_info">
+    <img class="picture" ng-repeat="image in data.images" src="{{ image.hostedLargeUrl }}"/>
+   </div>
+  </div><!-- . photo_wrap - -->
+
+  <div class="source_wrap">
+   <div class="source_info">
+    <p class="link_title">Get More Details Here:</p>
+    <a class="link">{{ data.source.sourceRecipeUrl }}</a>  
+   </div>
+  </div><!-- . source_wrap - -->
+
+
+
+
+
+ </section><!-- . recipe_list - -->
+
+</div><!-- .recipe_wrap - -->
+
+
