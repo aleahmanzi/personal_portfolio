@@ -16,8 +16,9 @@ $scope.recipeImg = function(data){
 /// - format results in an image
 
 $scope.openLink = function(data){
-	console.log("link click"); 
-	$window.open('www.google.com');
+	$scope.link= data.source.sourceRecipeUrl;
+	console.log($scope.link); 
+	$window.open($scope.link, '	Recpie Link', 'width=800,height=700');
 }
 /// - click recpie link to open source site
 
