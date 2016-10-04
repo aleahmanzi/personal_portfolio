@@ -3,19 +3,19 @@ angular.module('myApp')
  .config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/', {
-        templateUrl: './home.html',
+        templateUrl: './html/home.html',
         controller: 'homectrl'
     })
     .when('/myrecipes', {
-        templateUrl: './myrecipes.html',
+        templateUrl: './html/myrecipes.html',
         controller: 'recipesctrl'
     })
     .when('/search', {
-        templateUrl: './search.html',
+        templateUrl: './html/search.html',
         controller: 'searchctrl'
     })
     .when('/search/:recipeId', {
-        templateUrl: './recipeDetails.html',
+        templateUrl: './html/recipeDetails.html',
         controller: 'detailsctrl'
     })
     .when('/error', {
