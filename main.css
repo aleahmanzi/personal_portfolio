@@ -17,11 +17,11 @@
 input { width: 300px; }
 .submit { float: right; width: 75px; margin-right: 85px; margin-top: 25px; }
 
-.result_wrap { outline: 0px solid red; min-height: 250px; margin-top: 100px; }
-.result_data { outline: 0px dotted blue; width: 700px; margin: 0 auto; padding: 5px; position: relative; right: 15px; }
+.result_wrap { outline: 0px solid red; min-height: 250px; margin-top: 50px; }
+.result_data { outline: 0px dotted blue; width: 250px; margin: 0 auto; padding: 5px; display: inline-block; margin-right: 25px;}
 .food_img { height: 250px; width: 250px; border: 3px solid #eee; display: inline-block; margin: 10px; position: relative; left: 25px; border-radius: 50%; }
-.recipe_name { outline: 0px sold black; margin-left: 105px; }
-.name { outline: 1px solid blue; }
+.recipe_name { outline: 0px sold black; margin-left: 25px; width: 250px; text-align: center;  }
+.name { outline: 0px solid blue; font-family: Lobster; font-size: 20px; color: #F94D2F;}
 
 .recipe_wrap { outline: 0px solid black; }
 .recipe_list { outline: 1px solid #D5D5D5; width: 700px; margin: 0 auto; }
