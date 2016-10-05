@@ -28,22 +28,26 @@ input { width: 300px; }
 .recipe_data { outline: 0px solid red; margin: 10px; padding-top: 10px; width: 60%; display: inline-block; }
 .name_wrap { outline: 0px solid blue; display: inline-block; width: 60%;}
 .name_wrap p { display: inline-block; }
-.heart { outline: 1px solid red; height: 25px; float: right; display: inline-block; margin-bottom: 25px;}
 .time_wrap { border-top: 2px dotted black; border-bottom: 2px dotted black; }
 .name_wrap { margin-top: 10px; font-family: Lobster; font-size: 20px; color: #F94D2F; }
 .time { display: inline-block; margin-right: 30px; margin-top: 10px; margin-left: 25px; text-align: center; }
 .larger { font-family: Lobster; font-size: 15px; color: #F94D2F; }
 #total_time { border-left: 2px solid #D5D5D5; padding-left: 25px; }
-.pic_wrap { display: inline-block; float: right; margin-bottom: 200px; }
 .ingredient_list { margin-top: 25px; }
 .ingredient_title { font-family: Lobster; font-size: 20px; color: #F94D2F; }
+
+.heart_wrap { outline: 0px solid green; display: inline-block; float: right; width: 35%; margin-right: 15px; }
+.picture { border: 3px solid #eee; width: 230px; }
+.heart { outline: 0px solid red; height: 20px; margin-bottom: 175px; margin-top: 15px; float: right; cursor: pointer; }
+
+.openHeart-yes { display: block; }
+.openHeart-no { display: none; } 
+.fullHeart-yes { display: block; }
+.fullHeart-no { display: none; } 
 
 .source_wrap { outline: 0px solid blue; margin-left: 10px; border-top: 2px dotted black; width: 90%; }
 .source_info { margin-top: 10px; padding-bottom: 25px; }
 .link:hover { cursor: pointer; }
 
-.photo_wrap { outline: 0px solid green; display: inline-block; float: right; width: 35%; margin-right: 15px; }
-.photo_info { margin-top: 150px; }
-.picture { border: 3px solid #eee; width: 230px; }
 
 

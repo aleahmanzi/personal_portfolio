@@ -1,6 +1,8 @@
 angular.module('myApp').controller('detailsctrl', 
 	function($scope, detail, $routeParams, $window){
 
+$scope.openHeart = 'yes';
+$scope.fullHeart = 'no';
 $scope.recipeId = $routeParams.recipeId
 $scope.ingredientLines = '';
 
@@ -18,9 +20,21 @@ $scope.recipeImg = function(data){
 $scope.openLink = function(data){
 	$scope.link= data.source.sourceRecipeUrl;
 	console.log($scope.link); 
-	$window.open($scope.link, '	Recpie Link', 'width=800,height=700');
+	$window.open($scope.link, '	Recpie Link', 'width=800,height=700'
+	);
 }
 /// - click recpie link to open source site
 
+$scope.likeIt = function(){
+	$scope.openHeart = 'no';
+	$scope.fullHeart = 'yes';
+}
+/// - like recipe
+
+$scope.unlikeIt = function(){
+	$scope.openHeart = 'yes';
+	$scope.fullHeart = 'no';
+}
+/// - unlike recipe
 });
 /// - detailsctrl

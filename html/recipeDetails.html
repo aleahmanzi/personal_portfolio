@@ -27,11 +27,13 @@
 
   </div><!-- . recipe_data - -->
 
-  <div class="photo_wrap">
-   <div class="photo_info">
+  <div class="heart_wrap">
+   <div class="heart_info">
+    <img class="heart openHeart-{{openHeart}}" ng-click="likeIt()"src="pics/heart.png"/>
+    <img class="heart fullHeart-{{fullHeart}}" ng-click="unlikeIt()" src="pics/full_heart.svg"/>
     <img class="picture" ng-repeat="image in data.images" src="{{ image.hostedLargeUrl }}"/>
    </div>
-  </div><!-- . photo_wrap - -->
+  </div><!-- . heart_wrap - -->
 
   <div class="source_wrap">
    <div class="source_info">
