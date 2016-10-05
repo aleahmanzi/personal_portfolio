@@ -38,7 +38,7 @@ input { width: 300px; }
 
 .heart_wrap { outline: 0px solid green; display: inline-block; float: right; width: 35%; margin-right: 15px; }
 .picture { border: 3px solid #eee; width: 230px; }
-.heart { outline: 0px solid red; height: 20px; margin-bottom: 175px; margin-top: 15px; float: right; cursor: pointer; }
+.heart { outline: 0px solid red; height: 20px; margin-bottom: 100px; margin-top: 15px; float: right; cursor: pointer; }
 
 .openHeart-yes { display: block; }
 .openHeart-no { display: none; } 
