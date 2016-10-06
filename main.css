@@ -3,14 +3,19 @@
 .welcome { font-family: Lobster; font-size: 75px; color: #555555; }
 .message { font-family: Lobster; font-size: 30px; color: #555555; }
 
+.about_wrap { outline: 0px solid black; width: 50%; }
+.about_info { margin-left: 25px; }
+.title { font-family: Lobster; font-size: 50px; }
+.info {}
+
 .work_wrap { text-align: center; font-family: 'Roboto Slab'; padding-bottom: 75px; }
 .item_wrap { display: inline-block; outline: 0px solid red; padding-top: 75px; padding-right: 50px; padding-left: 50px; cursor: pointer; }
 .item_wrap img { height: 250px; width: 250px; outline: 0px solid #bbbbbb; border-radius: 50%; -webkit-filter: opacity(50%); }
 .item_wrap:hover img { box-shadow: 5px 5px 5px #999; opacity: 1; -webkit-filter: opacity(100%); -webkit-transition: .5s; cursor: pointer; color: #777777; }
 .item_wrap:hover p { text-shadow: 3px 3px 3px #999; }
 
-.social_wrap { height: 200px; width: 100%; border-top: 1px solid #eeeeee; text-align: center; text-decoration: none; }
-.social_title { font-size: 17px; font-family: 'Roboto Slab'; color: #333333; padding-top: 25px; text-decoration: none; }
+.social_wrap { height: 200px; width: 100%; text-align: center; text-decoration: none; color: #555555; }
+.social_title { font-size: 25px; font-family: 'Lobster'; color: #555555; padding-top: 75px; text-decoration: none; }
 .social_icons p { outline: 0px solid red; display: inline-block; -webkit-filter: grayscale(100%); padding: 5px; }
 .social_icons img {height: 25px; width: 25px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
