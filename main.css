@@ -1,25 +1,29 @@
+nav { height: 40px; }
+#about-button { padding-right: 10px; }
+#portfolio-button { padding-left: 10px; }
+.icon { margin-left: -15px; }
+.last { margin-right: 10px; }
+#me { height: 80px; border-radius: 50%; border: 5px solid #f8f8f8; }
+
 .hello_wrap { outline: 0px solid red; margin-top: 125px; }
 .welcome_section { outline: 0px solid black; width: 400px; margin: 0 auto; text-align: center; }
 .welcome { font-family: Lobster; font-size: 75px; color: #555555; }
 .message { font-family: Lobster; font-size: 30px; color: #555555; }
 
 .about_wrap { outline: 0px solid black; width: 50%; }
-.about_info { margin-left: 25px; }
+.about_info { margin-left: 25px; color: #555555; padding-top: 50px; }
 .title { font-family: Lobster; font-size: 50px; }
 .info {}
 
-.work_wrap { text-align: center; font-family: 'Roboto Slab'; padding-bottom: 75px; }
-.item_wrap { display: inline-block; outline: 0px solid red; padding-top: 75px; padding-right: 50px; padding-left: 50px; cursor: pointer; }
-.item_wrap img { height: 250px; width: 250px; outline: 0px solid #bbbbbb; border-radius: 50%; -webkit-filter: opacity(50%); }
-.item_wrap:hover img { box-shadow: 5px 5px 5px #999; opacity: 1; -webkit-filter: opacity(100%); -webkit-transition: .5s; cursor: pointer; color: #777777; }
-.item_wrap:hover p { text-shadow: 3px 3px 3px #999; }
+.work_wrap { text-align: center; font-family: 'Lobster'; padding-bottom: 75px; }
+.item_wrap { display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 25px; padding-top: 50px; cursor: pointer; }
+.small_wrap { outline: 2px solid #eee; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 100px; }
+.item_wrap img { height: 300px; outline: 0px solid #bbbbbb; -webkit-filter: opacity(100%); }
+.item_wrap p { font-size: 18px; color: #555555; padding-top: 5px; }
+.small_wrap:hover img { opacity: 1; -webkit-filter: opacity(50%); -webkit-transition: .5s; cursor: pointer; color: #777777; }
 
-.social_wrap { height: 200px; width: 100%; text-align: center; text-decoration: none; color: #555555; }
-.social_title { font-size: 25px; font-family: 'Lobster'; color: #555555; padding-top: 75px; text-decoration: none; }
+.social_wrap { height: 300px; width: 100%; text-align: center; text-decoration: none; }
+.social_title { font-size: 25px; font-family: 'Lobster'; color: #555555; padding-top: 50px; text-decoration: none; }
 .social_icons p { outline: 0px solid red; display: inline-block; -webkit-filter: grayscale(100%); padding: 5px; }
 .social_icons img {height: 25px; width: 25px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
-
-
-
-
