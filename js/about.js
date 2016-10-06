@@ -5,6 +5,7 @@ $scope.openHeart = 'yes';
 $scope.fullHeart = 'no';
 $scope.recipeId = $routeParams.recipeId
 $scope.ingredientLines = '';
+$scope.likes = [];
 
 detail($scope.recipeId).success(function(data){
   console.log(data);
@@ -25,9 +26,14 @@ $scope.openLink = function(data){
 }
 /// - click recpie link to open source site
 
-$scope.likeIt = function(){
+$scope.likeIt = function(data){
 	$scope.openHeart = 'no';
 	$scope.fullHeart = 'yes';
+	$scope.likes.push({
+		title: data.name,
+		link: data.source.sourceRecipeUrl
+	});
+	console.log($scope.likes);		
 }
 /// - like recipe
 

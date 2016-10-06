@@ -29,8 +29,6 @@ angular.module('myApp').controller('searchctrl',
 
 $scope.addIngredient = function(){
   $scope.term.push({});
-  $scope.hgt = { height: (25) + 'px' };
-
 }
 
 $scope.addBlock = function(){

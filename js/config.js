@@ -6,17 +6,17 @@ angular.module('myApp')
         templateUrl: './html/home.html',
         controller: 'homectrl'
     })
-    .when('/myrecipes', {
-        templateUrl: './html/myrecipes.html',
-        controller: 'recipesctrl'
+    .when('/about', {
+        templateUrl: './html/about.html',
+        controller: 'about'
     })
-    .when('/search', {
-        templateUrl: './html/search.html',
-        controller: 'searchctrl'
+    .when('/portfolio', {
+        templateUrl: './html/portfolio.html',
+        controller: 'portfolio'
     })
-    .when('/search/:recipeId', {
-        templateUrl: './html/recipeDetails.html',
-        controller: 'detailsctrl'
+    .when('/contact', {
+        templateUrl: './html/contact.html',
+        controller: 'contact'
     })
     .when('/error', {
         template: '<p>page not found</p>'

@@ -1,53 +1,20 @@
-.hello_wrap { outline: 0px solid red; margin-top: 150px; }
+.hello_wrap { outline: 0px solid red; margin-top: 125px; }
 .welcome_section { outline: 0px solid black; width: 400px; margin: 0 auto; text-align: center; }
-.welcome { font-family: Lobster; font-size: 50px; color: #F94D2F; }
-.message { font-family: Lobster; font-size: 25px;}
-.circle { outline: 0px solid black; margin: 0 auto; margin-top: 25px; background: #D5D5D5; width: 100px; height: 100px; border-radius: 50%; }
-.circle:hover { cursor: pointer; }
-.circle_text { outline: 0px solid red; padding-top: 32px; color: white; }
+.welcome { font-family: Lobster; font-size: 75px; color: #555555; }
+.message { font-family: Lobster; font-size: 30px; color: #555555; }
 
-.search_wrap { outline: 0px solid blue; width: 100%; min-height: 250px; margin-right: 5px; margin-top: 50px; }
-.outline { outline: 3px solid #F8F8F8; width: 510px; height: 310px; margin: 0 auto; padding-top: 5px; }
-.food_wrap { outline: 0px solid red; width: 500px; height: 300px; background-color: #F8F8F8;  margin: 0 auto; }
-.title { margin-bottom: 5px; }
-#title1 { font-family: Lobster; font-size: 20px; color: #F94D2F; }
-#title2 { margin-left: 10px; font-family: Lobster; font-size: 20px; color: #F94D2F; }
-.no_wrap { margin-top: 25px; margin-left: 85px; }
-.yes_wrap { padding-top: 50px; margin-left: 85px; }
-input { width: 300px; }
-.submit { float: right; width: 75px; margin-right: 85px; margin-top: 25px; }
+.work_wrap { text-align: center; font-family: 'Roboto Slab'; padding-bottom: 75px; }
+.item_wrap { display: inline-block; outline: 0px solid red; padding-top: 75px; padding-right: 50px; padding-left: 50px; cursor: pointer; }
+.item_wrap img { height: 250px; width: 250px; outline: 0px solid #bbbbbb; border-radius: 50%; -webkit-filter: opacity(50%); }
+.item_wrap:hover img { box-shadow: 5px 5px 5px #999; opacity: 1; -webkit-filter: opacity(100%); -webkit-transition: .5s; cursor: pointer; color: #777777; }
+.item_wrap:hover p { text-shadow: 3px 3px 3px #999; }
 
-.result_wrap { outline: 0px solid red; min-height: 250px; margin-top: 50px; }
-.result_data { outline: 0px dotted blue; width: 250px; margin: 0 auto; padding: 5px; display: inline-block; margin-right: 25px;}
-.food_img { height: 250px; width: 250px; border: 3px solid #eee; display: inline-block; margin: 10px; position: relative; left: 25px; border-radius: 50%; }
-.recipe_name { outline: 0px sold black; margin-left: 25px; width: 250px; text-align: center;  }
-.name { outline: 0px solid blue; font-family: Lobster; font-size: 20px; color: #F94D2F;}
+.social_wrap { height: 200px; width: 100%; border-top: 1px solid #eeeeee; text-align: center; text-decoration: none; }
+.social_title { font-size: 17px; font-family: 'Roboto Slab'; color: #333333; padding-top: 25px; text-decoration: none; }
+.social_icons p { outline: 0px solid red; display: inline-block; -webkit-filter: grayscale(100%); padding: 5px; }
+.social_icons img {height: 25px; width: 25px; }
+.social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
 
-.recipe_wrap { outline: 0px solid black; }
-.recipe_list { outline: 1px solid #D5D5D5; width: 700px; margin: 0 auto; }
-.recipe_data { outline: 0px solid red; margin: 10px; padding-top: 10px; width: 60%; display: inline-block; }
-.name_wrap { outline: 0px solid blue; display: inline-block; width: 60%;}
-.name_wrap p { display: inline-block; }
-.time_wrap { border-top: 2px dotted black; border-bottom: 2px dotted black; }
-.name_wrap { margin-top: 10px; font-family: Lobster; font-size: 20px; color: #F94D2F; }
-.time { display: inline-block; margin-right: 30px; margin-top: 10px; margin-left: 25px; text-align: center; }
-.larger { font-family: Lobster; font-size: 15px; color: #F94D2F; }
-#total_time { border-left: 2px solid #D5D5D5; padding-left: 25px; }
-.ingredient_list { margin-top: 25px; }
-.ingredient_title { font-family: Lobster; font-size: 20px; color: #F94D2F; }
-
-.heart_wrap { outline: 0px solid green; display: inline-block; float: right; width: 35%; margin-right: 15px; }
-.picture { border: 3px solid #eee; width: 230px; }
-.heart { outline: 0px solid red; height: 20px; margin-bottom: 100px; margin-top: 15px; float: right; cursor: pointer; }
-
-.openHeart-yes { display: block; }
-.openHeart-no { display: none; } 
-.fullHeart-yes { display: block; }
-.fullHeart-no { display: none; } 
-
-.source_wrap { outline: 0px solid blue; margin-left: 10px; border-top: 2px dotted black; width: 90%; }
-.source_info { margin-top: 10px; padding-bottom: 25px; }
-.link:hover { cursor: pointer; }
 
 
 
