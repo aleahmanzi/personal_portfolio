@@ -5,7 +5,7 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .last { margin-right: 10px; }
 #me { height: 80px; border-radius: 50%; border: 5px solid #f8f8f8; }
 
-.home_page { outline: 0px solid black; margin: -20px 0 0 0; background: url("pics/black_floral.jpg"); background-repeat: repeat; background-size: cover; min-height: 1200px; }
+.home_page { outline: 0px solid black; margin: -20px 0 0 0; background: url("pics/black_floral.jpg"); background-size: 100% 100%; }
 .hello_wrap { outline: 0px solid red; padding-top: 175px; }
 .welcome_section { outline: 5px solid white; margin: 0 auto; width: 400px; height: 300px; text-align: center; }
 .extra_wrap { outline: 2px solid white; width: 390px; height: 290px; margin: 0 auto; display: inline-block; margin-top: 5px; }
