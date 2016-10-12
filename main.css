@@ -20,7 +20,6 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .work_wrap { padding-bottom: 75px; text-align: center; }
 .item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
-.smaller_wrap { outline: 0px solid #B0BAB2; padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
 .item_wrap img { width: 250px; outline: 0px solid #bbbbbb; -webkit-filter: opacity(100%); }
 .work_text { font-size: 25px; font-family: Fredericka the Great; color: #555555; outline: 0px solid #555555; margin: 0 auto; }
 .desc_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; }
@@ -34,5 +33,9 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .social_icons p { outline: 0px solid red; display: inline-block; -webkit-filter: grayscale(100%); padding: 5px; }
 .social_icons img {height: 20px; width: 20px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
+
+.footer { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: white; font-family: Amatic SC; font-size: 20px; }
+.footer1 { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: #1D2C3F; font-family: Amatic SC; font-size: 20px; }
+.footer2 { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: #1D2C3F; font-family: Amatic SC; font-size: 20px; }
 
 
