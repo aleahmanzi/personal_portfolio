@@ -11,13 +11,16 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .extra_wrap { outline: 2px solid white; width: 390px; height: 290px; margin: 0 auto; display: inline-block; margin-top: 5px; }
 .welcome { font-family: Fredericka the Great; font-size: 60px; color: white; padding-top: 75px; }
 .message { font-family: Amatic SC; font-size: 25px; color: white; }
+.arrow_wrap { outline: 0px solid white; margin-top: 120px; }
+.arrow { outline: 0px solid red; width: 300px; margin: 0 auto; }
+.arrow img { height: 50px; cursor: pointer; margin-left: 120px; }
 
 .about_wrap { margin: -20px 0 0 0; background: url("pics/half_back1.jpg") no-repeat; bottom: 0px; background-size: cover; height: 700px; }
 .about_info { width: 45%; margin-left: 25px; color: #555555; padding-top: 50px; }
 .title { font-family: Fredericka the Great; font-size: 50px; }
 .info { font-family: Josefin Slab; font-size: 20px; }
 
-.work_wrap { padding-bottom: 75px; text-align: center; }
+.work_wrap { padding-bottom: 75px; margin-top: 50px; text-align: center; }
 .item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
 .item_wrap img { width: 250px; outline: 0px solid #bbbbbb; -webkit-filter: opacity(100%); }
@@ -34,8 +37,5 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .social_icons img {height: 20px; width: 20px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
 
-.footer { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: white; font-family: Amatic SC; font-size: 20px; }
-.footer1 { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: #1D2C3F; font-family: Amatic SC; font-size: 20px; }
-.footer2 { outline: 0px solid red; text-align: center; position: center bottom; margin-top: 150px; color: #1D2C3F; font-family: Amatic SC; font-size: 20px; }
 
 
