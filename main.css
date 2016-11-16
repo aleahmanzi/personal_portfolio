@@ -44,7 +44,7 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .sample_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
 .smaller_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
 .description_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
-.project_image { height: 200px; outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
+.project_image { outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
 .working_text { font-size: 25px; font-family: Fredericka the Great; color: #555555; outline: 0px solid #555555; margin: 0 auto; }
 .buttons1 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin: 15px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
 .buttons2 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin-left: 5px; margin-right: 5px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }

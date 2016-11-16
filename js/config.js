@@ -4,15 +4,16 @@ angular.module('myApp')
     $routeProvider
     .when('/', {
         templateUrl: './html/home.html',
+        controller: 'scrollctrl'
     })
     .when('/about', {
-        templateUrl: './html/about.html',
+        templateUrl: './html/about.html'
     })
     .when('/portfolio', {
-        templateUrl: './html/portfolio.html',
+        templateUrl: './html/portfolio.html'
     })
     .when('/contact', {
-        templateUrl: './html/contact.html',
+        templateUrl: './html/contact.html'
     })
     .when('/error', {
         template: '<p>page not found</p>'
