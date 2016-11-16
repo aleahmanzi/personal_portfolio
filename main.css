@@ -1,3 +1,6 @@
+a {
+    color: inherit;
+}
 nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 #about-button { padding-right: 10px; }
 #portfolio-button { padding-left: 10px; }
@@ -9,8 +12,9 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .hello_wrap { outline: 0px solid red; padding-top: 100px; }
 .welcome_section { outline: 5px solid white; margin: 0 auto; width: 375px; height: 300px; text-align: center; }
 .extra_wrap { outline: 2px solid white; width: 365px; height: 290px; margin: 0 auto; display: inline-block; margin-top: 5px; }
-.welcome { font-family: Fredericka the Great; font-size: 60px; color: white; padding-top: 75px; }
-.message { font-family: Amatic SC; font-size: 25px; color: white; }
+.extra { height: 70px;  }
+.welcome { font-family: Fredericka the Great; font-size: 60px; color: white; text-decoration: none !important; margin-top: 25px; }
+.message { font-family: Amatic SC; font-size: 25px; color: white; text-decoration: none !important; }
 .arrow_wrap { outline: 0px solid white; margin-top: 100px; }
 .arrow { outline: 0px solid red; width: 300px; margin: 0 auto; }
 .arrow img { height: 50px; cursor: pointer; margin-left: 120px; }
@@ -18,14 +22,15 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .about_wrap { margin: -20px 0 0 0; background: url("pics/half_back1.jpg") no-repeat; bottom: 0px; background-size: cover; height: 700px; }
 .about_info { width: 80%; margin: 0 auto; color: #555555; padding-top: 50px; }
 .title { font-family: Fredericka the Great; font-size: 50px; text-align: center; }
-.line { center; background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%); height: 1px; }
+.line { background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%); height: 1px; }
+.info_block { margin-top: 25px; }
 .info { font-family: Josefin Slab; font-size: 20px; }
-.more_links { outline: 1px solid black; width: 100%; }
-.links { margin: 0 auto; display: inline-block; }
-.links a {}
+.more_links { outline: 0px solid black; width: 100%; margin-top: 75px; text-align: center; }
+.links { outline: 0px solid red; width: 350px; margin: 0 auto; display: inline-block; }
+.me_link { outline: 0px solid blue;  margin-right: 35px; font-family: Amatic SC; font-size: 25px; text-decoration: none !important; color: #555555; }
+.me_link :hover { color: #3B506B; }
 
-
-
+.mini_work_wrap { padding-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
 .work_wrap { padding-bottom: 75px; margin-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
 .item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
