@@ -1,12 +1,14 @@
-a {
-    color: inherit;
-}
+/* -- nav bar - -- */
+
 nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 #about-button { padding-right: 10px; }
 #portfolio-button { padding-left: 10px; }
 .icon { margin-left: -15px; }
 .last { margin-right: 10px; }
 #me { height: 80px; border-radius: 50%; border: 5px solid #f8f8f8; }
+
+
+/* -- home page title - -- */
 
 .home_page { outline: 0px solid black; margin: -20px 0 0 0; background: url("pics/black_floral.jpg"); height: 700px; }
 .hello_wrap { outline: 0px solid red; padding-top: 100px; }
@@ -23,24 +25,48 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .about_info { width: 80%; margin: 0 auto; color: #555555; padding-top: 50px; }
 .title { font-family: Fredericka the Great; font-size: 50px; text-align: center; }
 .line { background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%); height: 1px; }
-.info_block { margin-top: 25px; }
+.info_block { margin-top: 25px; text-align: center; }
 .info { font-family: Josefin Slab; font-size: 20px; }
 .more_links { outline: 0px solid black; width: 100%; margin-top: 75px; text-align: center; }
-.links { outline: 0px solid red; width: 350px; margin: 0 auto; display: inline-block; }
-.me_link { outline: 0px solid blue;  margin-right: 35px; font-family: Amatic SC; font-size: 25px; text-decoration: none !important; color: #555555; }
-.me_link :hover { color: #3B506B; }
+
+/* -- extra links to my info - -- */
+
+.links { outline: 0px solid red; width: 400px; margin: 0 auto; display: inline-block; }
+.link_wrap { border: 1px solid #424242; transition: 0.3s linear; color: #555555; display: inline-block; padding-right: 7px; padding-left: 7px; margin: 15px; border-radius: 2px; background: transparent; }
+.link_wrap:hover { border: 1px solid #7C91A2; background: #A8B8C5; }
+.me_link { font-family: Amatic SC; font-size: 25px; text-decoration: none !important; color: #555555; width: 100%; }
+.me_link:hover { color: #364B60; }
+
+
+/* -- home page sample projects - -- */
 
 .mini_work_wrap { padding-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
+.sample_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
+.smaller_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
+.description_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
+.project_image { height: 200px; outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
+.working_text { font-size: 25px; font-family: Fredericka the Great; color: #555555; outline: 0px solid #555555; margin: 0 auto; }
+.buttons1 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin: 15px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
+.buttons2 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin-left: 5px; margin-right: 5px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
+.buttons1:hover { font-family: Amatic SC; text-decoration: none !important; color: #364B60; border: 1px solid #7C91A2; background: #A8B8C5; }
+.buttons2:hover { font-family: Amatic SC; text-decoration: none !important; color: #364B60; border: 1px solid #7C91A2; background: #A8B8C5; }
+
+/* -- all projects - -- */
+
 .work_wrap { padding-bottom: 75px; margin-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
 .item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
 .desc_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
-.project_img { width: 250px; outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
+.project_img { height: 250px; outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
 .work_text { font-size: 25px; font-family: Fredericka the Great; color: #555555; outline: 0px solid #555555; margin: 0 auto; }
 .desc { margin: 0 auto; font-size: 20px; margin-top: 10px; }
 .skill { padding-top: 5px; height: 30px; margin: 0 auto; font-size: 20px; }
-.button { outline: 2px solid #eee; font-familiy: Amatic SC; padding: 5px; margin-right: 25px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; }
+.button { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin-left: 5px; margin-right: 5px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
+.button:hover { font-family: Amatic SC; text-decoration: none !important; color: #364B60; border: 1px solid #7C91A2; background: #A8B8C5; }
 
+/* -- contact - -- */
+
+.home_social { padding-top: 150px; }
 .social_wrap { outline: 0px solid red; height: 300px; width: 100%; text-align: center; text-decoration: none; margin: -20px 0 0 0; background: url("pics/half_back.jpg")no-repeat; bottom: 0px; background-size: cover; height: 700px; }
 .social_title { outline: 0px solid blue; font-size: 40px; font-family: Fredericka the Great; color: #555555; margin-top: 100px; text-decoration: none; }
 .email { font-size: 18px; font-family: Amatic SC; font-size: 25px; }
@@ -50,10 +76,22 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 
 
 @media only screen and (min-width: 768px) { 
+
 .item_wrap { outline: 0px solid blue; margin-bottom: -175px; }
 .small_wrap {outline: 0px solid black; }
-.project_img { outline: 0px solid #eee; display: inline-block; margin-left: 50px; padding-bottom: 200px; }
+.project_img { height: 400px; outline: 0px solid #eee; display: inline-block; margin-left: 50px; padding-bottom: 200px; }
 .desc_wrap { outline: 0px solid red; display: inline-block; width: 300px; text-align: left; }
+
+.sample_wrap { outline: 0px solid blue; padding: 1px; }
+.smaller_wrap {outline: 0px solid black; }
+.project_image { outline: 0px solid #eee; width: 200px; }
+.description_wrap { outline: 0px solid red; width: 225x; margin-top: 15px; }
+.mini_work_wrap { outline: 0px solid red; width: 900px; padding: 5px; }
+.buttons_hero { outline: 0px solid black; width: 200px; display: inline-block; margin: 0 auto; }
+.buttons1 { margin-left: 35px; margin-right: 15px; }
 }
 
-
+@media only screen and (min-width: 1200px) { 
+.project_img { height: 600px; }
+.desc_wrap { width: 500px; }
+}
