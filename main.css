@@ -17,17 +17,19 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .extra { height: 70px;  }
 .welcome { font-family: Fredericka the Great; font-size: 60px; color: white; text-decoration: none !important; margin-top: 25px; }
 .message { font-family: Amatic SC; font-size: 25px; color: white; text-decoration: none !important; }
-.arrow_wrap { outline: 0px solid white; margin-top: 100px; }
+.arrow_wrap { outline: 0px solid white; margin-top: 175px; }
 .arrow { outline: 0px solid red; width: 300px; margin: 0 auto; }
-.arrow img { height: 50px; cursor: pointer; margin-left: 120px; }
+.arrow img { height: 40px; cursor: pointer; margin-left: 120px; }
 
-.about_wrap { margin: -20px 0 0 0; background: url("pics/half_back1.jpg") no-repeat; bottom: 0px; background-size: cover; height: 700px; }
-.about_info { width: 80%; margin: 0 auto; color: #555555; padding-top: 50px; }
+/* -- about page - -- */
+
+.about_wrap { margin: -20px 0 0 0; background: url("pics/half_back1.jpg") no-repeat; bottom: 400px; background-size: cover; height: 700px; }
+.about_info { width: 90%; margin: 0 auto; color: #555555; padding-top: 5px; }
 .title { font-family: Fredericka the Great; font-size: 50px; text-align: center; }
 .line { background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%); height: 1px; }
-.info_block { margin-top: 25px; text-align: center; }
+.info_block { margin-top: 5px; text-align: center; }
 .info { font-family: Josefin Slab; font-size: 20px; }
-.more_links { outline: 0px solid black; width: 100%; margin-top: 75px; text-align: center; }
+.more_links { outline: 0px solid black; width: 100%; margin-top: 10px; text-align: center; }
 
 /* -- extra links to my info - -- */
 
@@ -38,23 +40,10 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .me_link:hover { color: #364B60; }
 
 
-/* -- home page sample projects - -- */
-
-.mini_work_wrap { padding-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
-.sample_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
-.smaller_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
-.description_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
-.project_image { outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
-.working_text { font-size: 25px; font-family: Fredericka the Great; color: #555555; outline: 0px solid #555555; margin: 0 auto; }
-.buttons1 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin: 15px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
-.buttons2 { border: 1px solid #424242; font-familiy: Amatic SC; padding: 5px; margin-top: 40px; display: inline-block; width: 75px; text-align: center; margin-left: 5px; margin-right: 5px; transition: 0.3s linear; color: #555555; font-family: Amatic SC; font-size: 20px; border-radius: 2px; }
-.buttons1:hover { font-family: Amatic SC; text-decoration: none !important; color: #364B60; border: 1px solid #7C91A2; background: #A8B8C5; }
-.buttons2:hover { font-family: Amatic SC; text-decoration: none !important; color: #364B60; border: 1px solid #7C91A2; background: #A8B8C5; }
-
 /* -- all projects - -- */
 
 .work_wrap { padding-bottom: 75px; margin-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
-.item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-right: 25px; padding-left: 15px; padding-top: 15px; cursor: pointer; }
+.item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
 .desc_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
 .project_img { height: 250px; outline: 0px solid #bbbbbb; margin-top: 25px; -webkit-filter: opacity(100%); }
@@ -74,30 +63,14 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .social_icons img {height: 20px; width: 20px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-
-}
-@media only screen and (max-device-width : 320px) {
-
-}
 
 @media only screen and (min-width: 768px) { 
+.item_wrap { outline: 0px solid blue; width: 100%; }
+.project_img { outline: 0px solid #eee; display: inline-block; bottom: 50px; margin-left: 25px; }
+.desc_wrap { outline: 0px solid red; width: 300px; text-align: left; display: inline-block; }
 
-.item_wrap { outline: 0px solid blue; margin-bottom: -175px; }
-.small_wrap {outline: 0px solid black; }
-.project_img { height: 400px; outline: 0px solid #eee; display: inline-block; margin-left: 50px; padding-bottom: 200px; }
-.desc_wrap { outline: 0px solid red; display: inline-block; width: 300px; text-align: left; }
-
-.sample_wrap { outline: 0px solid blue; padding: 1px; }
-.smaller_wrap {outline: 0px solid black; }
-.project_image { outline: 0px solid #eee; width: 200px; }
-.description_wrap { outline: 0px solid red; width: 225x; margin-top: 15px; }
-.mini_work_wrap { outline: 0px solid red; width: 900px; padding: 5px; }
-.buttons_hero { outline: 0px solid black; width: 200px; display: inline-block; margin: 0 auto; }
-.buttons1 { margin-left: 35px; margin-right: 15px; }
-}
 
 @media only screen and (min-width: 1200px) { 
-.project_img { height: 600px; }
-.desc_wrap { width: 500px; }
+.project_img { outline: 0px solid blue; height: 350px; }
+.desc_wrap { outline: 0px solid red; width: 350px; }
 }
