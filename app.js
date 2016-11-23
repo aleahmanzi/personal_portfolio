@@ -6,7 +6,7 @@ $(function() {
         $target = $(target);
 
         $('html, body').animate({
-    	scrollTop: $("#Hello").offset().top
+    	scrollTop: $("#about").offset().top
 		}, 1000);
 
 		
