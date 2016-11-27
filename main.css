@@ -72,5 +72,5 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 
 @media only screen and (min-width: 1200px) { 
 .project_img { outline: 0px solid blue; height: 350px; }
-.desc_wrap { outline: 0px solid red; width: 350px; }
+.desc_wrap { outline: 0px solid red; width: 350px; position: relative; bottom: 100px;}
 }
