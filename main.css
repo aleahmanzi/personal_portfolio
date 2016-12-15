@@ -6,16 +6,18 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 .icon { margin-left: -15px; }
 .last { margin-right: 10px; }
 #me { height: 80px; border-radius: 50%; border: 5px solid #f8f8f8; }
+p { color: #555555; }
+
 
 
 /* -- home page title - -- */
 
-.home_page { outline: 0px solid black; margin: -20px 0 0 0; background: url("pics/black_floral.jpg"); height: 700px; }
+.home_page { outline: 0px solid black; background: url("pics/black_floral.jpg"); height: 700px; }
 .hello_wrap { outline: 0px solid red; padding-top: 100px; }
-.welcome_section { outline: 5px solid white; margin: 0 auto; width: 375px; height: 300px; text-align: center; }
-.extra_wrap { outline: 2px solid white; width: 365px; height: 290px; margin: 0 auto; display: inline-block; margin-top: 5px; }
+.welcome_section { outline: 5px solid white; margin: 0 auto; width: 310px; height: 300px; text-align: center; }
+.extra_wrap { outline: 2px solid white; width: 300px; height: 290px; margin: 0 auto; display: inline-block; margin-top: 5px; }
 .extra { height: 70px;  }
-.welcome { font-family: Fredericka the Great; font-size: 60px; color: white; text-decoration: none !important; margin-top: 25px; }
+.welcome { font-family: Fredericka the Great; font-size: 50px; color: white; text-decoration: none !important; margin-top: 25px; }
 .message { font-family: Amatic SC; font-size: 25px; color: white; text-decoration: none !important; }
 .arrow_wrap { outline: 0px solid white; margin-top: 175px; }
 .arrow { outline: 0px solid red; width: 300px; margin: 0 auto; }
@@ -23,8 +25,7 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 
 /* -- about page - -- */
 
-.about_wrap { margin: -20px 0 0 0; background: url("pics/half_back1.jpg") no-repeat; bottom: 400px; background-size: cover; height: 700px; }
-.about_info { width: 90%; margin: 0 auto; color: #555555; padding-top: 5px; }
+.about_wrap { margin-bottom: 75px;  }
 .title { font-family: Fredericka the Great; font-size: 50px; text-align: center; }
 .line { background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%); height: 1px; }
 .info_block { margin-top: 5px; text-align: center; }
@@ -42,7 +43,7 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 
 /* -- all projects - -- */
 
-.work_wrap { padding-bottom: 75px; margin-top: 50px; text-align: center; width: 80%; margin: 0 auto; }
+.work_wrap { padding-bottom: 75px; text-align: center; width: 80%; margin: 0 auto; }
 .item_wrap { outline: 0px solid red; display: inline-block; padding-bottom: 25px; padding-top: 15px; cursor: pointer; }
 .small_wrap { outline: 0px solid #B0BAB2; padding-top: 5px; padding-left: 5px; padding-right: 5px; padding-bottom: 5px; }
 .desc_wrap { font-family: Josefin Slab; font-size: 15px; color: #555555; text-align: center; }
@@ -56,15 +57,18 @@ nav { height: 40px; font-family: Josefin Slab; font-size: 15px; }
 /* -- contact - -- */
 
 .home_social { padding-top: 150px; }
-.social_wrap { outline: 0px solid red; height: 300px; width: 100%; text-align: center; text-decoration: none; margin: -20px 0 0 0; background: url("pics/half_back.jpg")no-repeat; bottom: 0px; background-size: cover; height: 700px; }
+.social_wrap { outline: 0px solid red; width: 100%; text-align: center; text-decoration: none; margin: -20px 0 0 0; bottom: 0px; background-size: cover; height: 700px; }
 .social_title { outline: 0px solid blue; font-size: 40px; font-family: Fredericka the Great; color: #555555; margin-top: 100px; text-decoration: none; }
 .email { font-size: 18px; font-family: Amatic SC; font-size: 25px; }
 .social_icons p { outline: 0px solid red; display: inline-block; -webkit-filter: grayscale(100%); padding: 5px; }
-.social_icons img {height: 20px; width: 20px; }
+.social_icons img {height: 30px; width: 30px; }
 .social_icons :hover { -webkit-filter: grayscale(0); -webkit-transition: .5s; cursor: pointer; }
 
 
 @media only screen and (min-width: 768px) { 
+.welcome_section { width: 365px; }
+.extra_wrap { width: 355px; }
+.welcome { font-size: 60px; }
 .item_wrap { outline: 0px solid blue; width: 100%; }
 .project_img { outline: 0px solid #eee; display: inline-block; bottom: 50px; margin-left: 25px; }
 .desc_wrap { outline: 0px solid red; width: 300px; text-align: left; display: inline-block; }
