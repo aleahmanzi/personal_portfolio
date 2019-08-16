@@ -7,7 +7,7 @@ https://aleahmanzi.github.io/personal_portfolio/#/
 
 
 ## Business Intelligence Team
-Please don't hesitate to reach out to our team if you have questions about your project or Looker in general. Outline below are some resources that will help you get in touch with us and BI resources.
+Please reach out to our team if you have questions about your project, Looker in general or other BI resource needs. Outlined below are details about how to get it touch with us and where you can find our documentation.
 
 ### BI Team Members
     BI Platform
