@@ -35,7 +35,7 @@ https://symbiota.atlassian.net/wiki/spaces/BIP/pages/778141716/Looker
 Our SLA's outline all of our promises to the internal Indigo organization (our customers) in terms of response/solution times.
 
 * Pull Requests:
-We will respond to PR's modifying the Looker code base within 2 business days, unless a PR is specifically escalated in #looker or #bi-prs
+We will respond to PR's modifying the Looker code base within 2 business days, unless a PR is specifically escalated in #looker or #bi-prs.
 * Questions posted in our various Slack channels
 We will respond to questions posted in our slack channels within 1 business day, either with a solution or a plan to follow up. 
 * Jira Tickets:
