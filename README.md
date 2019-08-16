@@ -10,20 +10,17 @@ https://aleahmanzi.github.io/personal_portfolio/#/
 Please don't hesitate to reach out to our team if you have questions about your project or Looker in general. Outline below are some resources that will help you get in touch with us and BI resources.
 
 ### BI Team Members
-    Josh Vogel 
-    Ellyn Golden 
-    Deep Vaghani
-BI Platform
-    Josh Vogel
-    Levi Davis
-    Ellyn Golden 
-    Deep Vaghani
-    Akshay Ajbani
-    Bryan Huff
+    BI Platform
+        Josh Vogel 
+        Levi Davis
+        Ellyn Golden 
+        Deep Vaghani
+        Akshay Ajbani
+        Bryan Huff
     
-Onboarding & Training
-    Aleah Manzi
-    
+    Onboarding and Training
+        Aleah Manzi
+
 ### BI Team Confluence Page
 Access Looker resources and information about the Business Intelligence Team
 
